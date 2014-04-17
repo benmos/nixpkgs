@@ -1120,6 +1120,8 @@ let result = let callPackage = x : y : modifyPrio (newScope result.finalReturn x
 
   fastLogger = callPackage ../development/libraries/haskell/fast-logger {};
 
+  fastTagsoup = callPackage ../development/libraries/haskell/fast-tagsoup {};
+
   fb = callPackage ../development/libraries/haskell/fb {};
 
   fclabels = callPackage ../development/libraries/haskell/fclabels {};
@@ -2206,6 +2208,8 @@ let result = let callPackage = x : y : modifyPrio (newScope result.finalReturn x
 
   resourcePool = callPackage ../development/libraries/haskell/resource-pool {};
 
+  resourcePoolCatchio = callPackage ../development/libraries/haskell/resource-pool-catchio {};
+
   resourcet = callPackage ../development/libraries/haskell/resourcet {};
 
   retry = callPackage ../development/libraries/haskell/retry {};
@@ -2271,6 +2275,8 @@ let result = let callPackage = x : y : modifyPrio (newScope result.finalReturn x
   snap = callPackage ../development/libraries/haskell/snap/snap.nix {};
 
   snapletAcidState = callPackage ../development/libraries/haskell/snaplet-acid-state {};
+
+  snapletPostgresqlSimple = callPackage ../development/libraries/haskell/snaplet-postgresql-simple {};
 
   snapBlaze = callPackage ../development/libraries/haskell/snap-blaze/default.nix {};
 
