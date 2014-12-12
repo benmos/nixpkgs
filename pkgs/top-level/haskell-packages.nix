@@ -740,6 +740,7 @@ self : let callPackage = x : y : modifyPrio (newScope self x y); in
   ekgBosun = callPackage ../development/libraries/haskell/ekg-bosun {};
   ekgCarbon = callPackage ../development/libraries/haskell/ekg-carbon {};
   ekgCore = callPackage ../development/libraries/haskell/ekg-core {};
+  ekgStatsd = callPackage ../development/libraries/haskell/ekg-statsd {};
 
   elerea = callPackage ../development/libraries/haskell/elerea {};
 
