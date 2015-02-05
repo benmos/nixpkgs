@@ -1194,6 +1194,8 @@ self : let callPackage = x : y : modifyPrio (newScope self x y); in
 
   httpClientMultipart = callPackage ../development/libraries/haskell/http-client-multipart {};
 
+  httpClientOpenssl = callPackage ../development/libraries/haskell/http-client-openssl {};
+
   httpClientTls = callPackage ../development/libraries/haskell/http-client-tls {};
 
   httpCommon = callPackage ../development/libraries/haskell/http-common {};
